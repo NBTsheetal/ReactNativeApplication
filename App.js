@@ -3,11 +3,6 @@ import { StackNavigator,DrawerNavigator } from "react-navigation"
 import EventSingle from './Pages/EventSingle';
 import EventLists from './Pages/EventLists';
 import HomePage from './Pages/HomePage';
-// custom pages
-// import EventSingle from './Pages/EventSingle';
-// import EventLists from './Pages/EventLists';
-
-// End custom pages
 
 export default App = DrawerNavigator({
 	HomePage: {screen: HomePage},
@@ -29,5 +24,13 @@ class App extends React.Component {
 	  return <SimpleApp />;
 	}
 }
+
+
+// custom pages
+// import EventSingle from './Pages/EventSingle';
+// import EventLists from './Pages/EventLists';
+
+// End custom pages
+
 
 
