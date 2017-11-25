@@ -1,10 +1,11 @@
 import React from 'react';
 import { StackNavigator,DrawerNavigator } from "react-navigation"
-
-
-// custom pages
 import EventSingle from './Pages/EventSingle';
 import EventLists from './Pages/EventLists';
+
+// custom pages
+// import EventSingle from './Pages/EventSingle';
+// import EventLists from './Pages/EventLists';
 import HomePage from './Pages/HomePage';
 // End custom pages
 
